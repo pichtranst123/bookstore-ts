@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "bookstore-ts",
+			"path": "../.."
+		},
+		{
+			"name": "src",
+			"path": "../../../typescript-crm-api/src"
+		}
+	],
+	"settings": {}
+}

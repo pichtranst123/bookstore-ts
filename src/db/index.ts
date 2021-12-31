@@ -9,7 +9,7 @@ if (!url) {
   throw new Error("MONGODB_URI is not defined in the environment variables");
 }
 
-const dbName = 'Book'; // Replace with your database name
+const dbName = 'Book'; 
 let db: Db | null = null;
 
 export const connectDB = async () => {
@@ -19,7 +19,7 @@ export const connectDB = async () => {
       console.log('Connected to MongoDB Atlas');
     } catch (error) {
       console.error('Could not connect to MongoDB Atlas', error);
-      process.exit(1); // Exit the process with an error code
+      process.exit(1); 
     }
   };
   
